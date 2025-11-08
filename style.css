@@ -1,0 +1,38 @@
+* body{
+    background-color: burlywood;
+}
+
+.container {
+    width: 50%;
+    margin: 1%  outo;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    aspect-ratio: 1/1;
+    gap: 1; 
+}
+
+.container {
+    background-color: rgba(255,0,0,0.1);
+    border-radius: 10px;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.container >*:hover {
+    background-color: rgba(255,0,0,0,1.5);
+    cursor: pointer;
+}
+
+.height {
+    grid-row: 1/3;
+}
+
+.lin {
+    grid-row: 1/-2;
+
+}
