@@ -25,11 +25,11 @@
     cursor: pointer;
 }
 
-.height {
+.wide {
     grid-row: 1/3;
 }
 
-.lin {
+.wider {
     grid-row: 1/-2;
 
 }
